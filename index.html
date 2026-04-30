@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Heróis Droides - Star Wars Saga Edition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="topo">
+        <h1>Heróis Droides (SWSE)</h1>
+        <p>Jogar com um herói droide oferece uma experiência de interpretação única. Ao contrário das espécies orgânicas, os droides são construídos com propósitos específicos e possuem características de seres não-vivos, o que lhes confere imunidades especiais, mas também vulnerabilidades a armas de íons.</p>
+    </div>
+
+    <div>
+        <p>
+            <a href="#registro-droide">Ir para o Registro de Droides (Formulário)</a> | 
+            
+            <a href="https://starwars.fandom.com/wiki/Droid" target="_blank">Ver sobre Droides na Wookieepedia</a> |
+            
+            <a href="pagina2.html">Ver Peças e Acessórios (Página 2)</a>
+        </p>
+    </div>
+
+    <hr>
+
+    <div>
+        <a name="caracteristicas-droide" id="caracteristicas-droide"></a>
+        
+        <h3>Passos para Criar um Herói Droide</h3>
+        <ol>
+            <li>Escolha o Grau do Droide (1º a 5º Grau).</li>
+            <li>Determine o Tamanho e o Chassi base.</li>
+            <li>Selecione os sistemas de locomoção e apêndices.</li>
+        </ol>
+
+        <h3>Traços de Droides (Características)</h3>
+        <ul>
+            <li><strong>Imunidades:</strong> Imunes a veneno, doenças, radiação e perigos atmosféricos.</li>
+            <li><strong>Reparos:</strong> Não recuperam pontos de vida naturalmente; precisam da perícia Mecânica.</li>
+            <li><strong>Apagão de Memória:</strong> Podem ser reprogramados ou ter suas memórias apagadas (Wiped).</li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <div>
+        <h3>Exemplo de alguns Droides</h3>
+        <img src="./assets/3iwojuuk3hy71.jpg" alt="Ilustração de droides em geral" width="400" class="classe-perfil">
+    </div>
+
+    <hr>
+
+    <div>
+        <h3>Modificadores de Atributo por Tamanho do Droide</h3>
+        <table border="1">
+            <tr>
+                <th>Tamanho do Chassi</th>
+                <th>Modificador de Força</th>
+                <th>Modificador de Destreza</th>
+            </tr>
+            <tr>
+                <td>Pequeno (Small)</td>
+                <td>-2</td>
+                <td>+2</td>
+            </tr>
+            <tr>
+                <td>Médio (Medium)</td>
+                <td>+0</td>
+                <td>+0</td>
+            </tr>
+            <tr>
+                <td>Grande (Large)</td>
+                <td>+8</td>
+                <td>-2</td>
+            </tr>
+        </table>
+    </div>
+
+    <hr>
+
+    <div>
+        <h3>Funcionamento de alguns Droides</h3>
+        
+        <video width="400" controls>
+            <source src="/assets/YTDown_YouTube_Star-Wars-The-Phantom-Menace-1999-Activa_Media_bjCLlsOvKrQ_001_1080p.mp4" type="video/mp4">
+            Seu navegador não suporta a visualização deste holograma (vídeo).
+        </video>
+        <p><i>Legenda: Registro holográfico de um droides de combate em ação.</i></p>
+
+        <br>
+        <audio controls>
+            <source src="/assets/YTDown_YouTube_Star-wars-R2-D2-screams_Media_EJmSeHgcxkY_006_128k.mp3" type="audio/mpeg">
+            Seu navegador não suporta a reprodução deste arquivo de áudio.
+        </audio>
+    </div>
+
+    <hr>
+
+    <a name="registro-droide" id="registro-droide"></a> 
+    <div>
+        <h3>Formulário de Registro na Alfândega Imperial</h3>
+        
+        <form action="">
+            <label for="designacao">Designação (Nome do Droide):</label>
+            <input type="text" id="designacao" name="designacao" placeholder="Ex: R2-D2, HK-47" required>
+            <br><br>
+
+            <label for="ano_fabricacao">Ano de Fabricação (ABY/BBY):</label>
+            <input type="number" id="ano_fabricacao" name="ano_fabricacao" min="-4000" max="100">
+            <br><br>
+
+            <p>Selecione o Sistema de Locomoção Primário:</p>
+            <input type="radio" id="loc_bipede" name="locomocao" value="Bipede" required>
+            <label for="loc_bipede">Pernas (Bípede/Quadrúpede)</label><br>
+            
+            <input type="radio" id="loc_esteira" name="locomocao" value="Esteira">
+            <label for="loc_esteira">Esteiras</label><br>
+
+            <input type="radio" id="loc_flutuador" name="locomocao" value="Flutuador">
+            <label for="loc_flutuador">Propulsor Flutuador (Hover)</label><br><br>
+
+            <input type="checkbox" id="memoria" name="memoria" required>
+            <label for="memoria">Confirmo que o droide não passou por apagão de memória nos últimos 6 meses.</label>
+            <br><br>
+
+            <button type="submit">Enviar Registro</button>
+            <button type="reset">Limpar Dados</button>
+        </form>
+    </div>
+
+    <hr>
+
+    <div>
+        <h3>Galeria de Modelos de Droides</h3>
+        <img src="/assets/Artoo_negtc.webp" alt="Droide Astromecânico" width="200">
+        <img src="/assets/300px-Droide-protocollare.jpg.png" alt="Droide de Protocolo" width="200">
+        <img src="/assets/IG_lancer_combat_droid.webp" alt="Droide de Combate" width="200">
+    </div>
+
+    <hr>
+
+    <div>
+        <h3>Compartilhe este Banco de Dados</h3>
+        
+        <a href="https://discord.com" target="_blank">
+            <img src="/assets/discord.png" alt="Compartilhar no Discord" width="40">
+        </a>
+        
+        <a href="https://reddit.com/r/SagaEdition" target="_blank">
+            <img src="/assets/reddit.png" alt="Compartilhar no Reddit de SWSE" width="40">
+        </a>
+    </div>
+
+    <br>
+    <a href="#topo">Voltar ao Topo do Banco de Dados</a>
+
+</body>
+</html>
